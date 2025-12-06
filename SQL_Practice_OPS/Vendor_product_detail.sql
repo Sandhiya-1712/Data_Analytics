@@ -83,3 +83,13 @@ on p.product_id = oi.product_id;
 select * from detail_table;
 
 select  vendor_name, sum(quantity * unit_price) as total_revenue from detail_table group by	vendor_name having total_revenue > 1000;
+
+Alter table data_analytics.orders add order_date date;
+
+update data_analytics.orders set order_date = '2025-03-23' where product_id = 100;
+update data_analytics.orders set order_date = '2025-04-19' where product_id = 101;
+update data_analytics.orders set order_date = '2025-06-02' where product_id = 102;
+update data_analytics.orders set order_date = '2025-08-30' where product_id = 103;
+update data_analytics.orders set order_date = '2025-09-22' where product_id = 104;
+
+select * from data_analytics.orders;
