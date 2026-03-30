@@ -26,7 +26,7 @@ A Basic power BI Report which analyzes customer churn behavior using Power BI an
 
 ## 🔗 Live Dashboard
 
-Soon Dashboard will be published after changes and link will be uploaded.
+Soon report will be published after changes and link will be uploaded.
 
 ## Files
 
