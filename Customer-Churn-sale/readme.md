@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Basic power BI Report which analyzes customer churn behavior using Power BI and mysql to clean up the data. Power BI is used to identify key drivers impacting retention and revenue.
+Simple Power BI Report which analyzes customer churn behavior using Power BI and mysql to clean up the data. Power BI is used to identify key drivers impacting retention and revenue.
 
 ## Key Insights
 
